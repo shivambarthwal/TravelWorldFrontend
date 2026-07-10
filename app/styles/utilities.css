@@ -1,0 +1,46 @@
+/* Container */
+
+.container {
+  width: 100%;
+  max-width: var(--container-2xl);
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+/* Section */
+
+.section {
+  padding-block: 100px;
+}
+
+/* Card */
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-normal) var(--ease);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+/* Glass */
+
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+}
+
+/* Text */
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}

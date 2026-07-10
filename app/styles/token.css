@@ -1,0 +1,183 @@
+/* ===========================================================
+   AI Travel Design Tokens
+   Version: 1.0
+=========================================================== */
+
+:root {
+  /* =======================================================
+     COLORS
+  ======================================================= */
+
+  /* Brand */
+  --color-primary: #4f46e5;
+  --color-primary-hover: #6366f1;
+
+  --color-secondary: #0f172a;
+
+  --color-accent: #06b6d4;
+  --color-accent-hover: #22d3ee;
+
+  --font-heading: "Outfit";
+  --font-body: "Inter";
+
+  /* Backgrounds */
+  --background: #ffffff;
+  --background-secondary: #f8fafc;
+  --background-tertiary: #eef2f7;
+
+  /* Surface */
+  --surface: #ffffff;
+  --surface-hover: #f8fafc;
+
+  /* Card */
+  --card: #ffffff;
+  --card-hover: #f8fafc;
+
+  /* Text */
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --text-inverse: #ffffff;
+
+  /* Border */
+  --border: #e2e8f0;
+  --border-hover: #cbd5e1;
+
+  /* States */
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --info: #3b82f6;
+
+  /* =======================================================
+     GLASS
+  ======================================================= */
+
+  --glass-bg: rgba(255, 255, 255, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.25);
+  --glass-blur: 18px;
+
+  /* =======================================================
+     GRADIENTS
+  ======================================================= */
+
+  --gradient-primary: linear-gradient(135deg, #6366f1, #4f46e5);
+
+  --gradient-hero: linear-gradient(135deg, #0f172a, #1e293b);
+
+  --gradient-card: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.8),
+    rgba(248, 250, 252, 0.9)
+  );
+
+  /* =======================================================
+     SHADOWS
+  ======================================================= */
+
+  --shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.05);
+
+  --shadow-md: 0 10px 25px rgba(15, 23, 42, 0.08);
+
+  --shadow-lg: 0 20px 45px rgba(15, 23, 42, 0.12);
+
+  --shadow-xl: 0 35px 70px rgba(15, 23, 42, 0.15);
+
+  --shadow-glow: 0 0 35px rgba(79, 70, 229, 0.35);
+
+  /* =======================================================
+     RADIUS
+  ======================================================= */
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+  --radius-full: 999px;
+
+  /* =======================================================
+     SPACING (8px Grid)
+  ======================================================= */
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  /* =======================================================
+     CONTAINER
+  ======================================================= */
+
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+  --container-2xl: 1400px;
+
+  /* =======================================================
+     TRANSITIONS
+  ======================================================= */
+
+  --transition-fast: 0.2s;
+  --transition-normal: 0.3s;
+  --transition-slow: 0.5s;
+  --transition-extra: 0.7s;
+
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* =======================================================
+     Z INDEX
+  ======================================================= */
+
+  --z-navbar: 100;
+  --z-dropdown: 200;
+  --z-modal: 500;
+  --z-toast: 800;
+  --z-loader: 999;
+
+  /* Font Sizes */
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+  --text-7xl: 4.5rem;
+}
+
+[data-theme="dark"] {
+  --background: #020617;
+  --background-secondary: #0f172a;
+  --background-tertiary: #1e293b;
+
+  --surface: #111827;
+  --surface-hover: #1f2937;
+
+  --card: #111827;
+  --card-hover: #1e293b;
+
+  --text-primary: #ffffff;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+
+  --border: #334155;
+  --border-hover: #475569;
+
+  --glass-bg: rgba(17, 24, 39, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.08);
+}
